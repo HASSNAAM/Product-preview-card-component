@@ -64,6 +64,9 @@ header img {
   object-fit: cover;
 }
 section {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
   background-color: var(--white);
   border-radius: 0 15px 15px 0;
   padding: 30px;
